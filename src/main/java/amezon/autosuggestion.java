@@ -30,9 +30,8 @@ public class autosuggestion {
 		{
 			String alloptinos=suggestion.getText();
 			System.out.println(alloptinos);
-//			if(alloptinos.equals("iphone13, red, 64 gb")) {
-//		        suggestion.click();
-//		}
+			if(alloptinos.equals("iphone13, red, 64 gb"))
+			{      suggestion.click();	}
 		
 	}
       driver.close();

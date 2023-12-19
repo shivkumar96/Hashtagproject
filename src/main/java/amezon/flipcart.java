@@ -9,7 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class flipcart {
+public class flipcart 
+{
 @SuppressWarnings("deprecation")
 public static void main(String[] args) throws InterruptedException {
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\Shivkumar\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe\\");
@@ -33,9 +34,10 @@ public static void main(String[] args) throws InterruptedException {
 		
 		if(alloptions.equals("iphone13"))
 		{
-	           option.get(i).getText();
+			System.out.println(option.get(i).getText());
+	           option.get(i).click();
 		}
-	}
+}
 
 	
 	

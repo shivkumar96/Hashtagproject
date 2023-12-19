@@ -30,8 +30,8 @@ public class excelsheet {
 //
 //	   }	
 	   
-	   for(int i=0; i<col; i++) {
-		  String s=deta.getRow(1).getCell(i).toString();
+	   for(int i=0; i<row; i++) {
+		  String s=deta.getRow(i).getCell(1).toString();
 		  System.out.print("|"+s);
 	   }
 	   System.out.println();
